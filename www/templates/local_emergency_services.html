@@ -1,0 +1,35 @@
+<ion-view>
+
+    <ion-nav-buttons side="right" class="custom_padding_header">
+         <p>
+         <a class="button button-clear header-text" href="#/app/register">Register</a> 
+         <a class="button button-clear header-text">|</a>
+         <a class="button button-clear header-text" href="#/app/landing">Login</a>
+         </p>
+    </ion-nav-buttons>  
+
+  <ion-content class="image-full-height-emergency">
+
+
+			<div class="image-full-width-text-emergency" style="background-image: url('img/localEmergencyServicesLogo.png'); background-repeat: no-repeat; background-size: contain; width: 95%;">	
+			</div>	
+
+			<div class="card emergency-card">
+			  <div class="item item-text-wrap emergency-card">
+				<button class="button icon-left button-block button-block-emergency red-button-positive-policeman"></button>
+				<button class="button icon-left button-block button-block-emergency red-button-positive-ambulance"></button>
+				<button class="button icon-left button-block button-block-emergency red-button-positive-fire"></button>
+				<button class="button icon-left button-block button-block-emergency red-button-positive-sos"></button>
+
+				<button class="button icon-left button-block red-button-positive-need-other-details" ng-click="gotoOtherEmergency()"></button>
+				<button class="button button-clear button-positive"></button>
+			  </div>
+			</div>
+
+
+			
+
+
+
+  </ion-content>
+</ion-view>

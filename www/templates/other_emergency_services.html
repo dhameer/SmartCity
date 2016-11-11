@@ -1,0 +1,39 @@
+<ion-view>
+
+    <ion-nav-buttons side="right" class="custom_padding_header">
+         <p>
+         <a class="button button-clear header-text" href="#/app/register">Register</a> 
+         <a class="button button-clear header-text">|</a>
+         <a class="button button-clear header-text" href="#/app/landing">Login</a>
+         </p>
+		
+    </ion-nav-buttons>  
+
+  <ion-content class="image-full-height-emergency">
+
+			<div class="image-full-width-text-emergency" style="background-image: url('img/otherEmergencyLogo.png'); background-repeat: no-repeat; background-size: contain; width: 95%;">	
+			</div>	
+
+			<div class="spacer" style="height: 10px;">	
+			</div>
+
+	        <ion-list>
+		        <div ng-repeat="group in groups">
+		          <ion-item class="item-stable emergency-item"
+		                    ng-click="toggleGroup(group)"
+		                    ng-class="{active: isGroupShown(group)}">		              
+		            {{group.name}}
+		            <i class="icon float-right" ng-class="isGroupShown(group) ? 'ion-arrow-up-b' : 'ion-arrow-down-b'"></i>
+		          </ion-item>
+		          <ion-item class="item-accordion emergency-item text-flow"
+		                    ng-repeat="item in group.items"
+		                    ng-show="isGroupShown(group)">
+		            {{item.subName}}
+		          </ion-item>
+		        </div>
+		        <button class="button icon-left button-block red-button-positive-need-other-details"></button>
+	        </ion-list>
+			<button class="button button-clear button-positive"></button>
+			<button class="button button-clear button-positive"></button>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,389 @@
+/* Empty. Add your own CSS if you like */
+
+@font-face {
+  font-family: "MyriadPro";
+  src: url("../fonts/MyriadPro-Regular.otf");
+}
+
+@font-face {
+  font-family: "MyriadPro";
+  src: url("../fonts/MyriadPro-Regular.otf");
+  font-style:italic;
+}
+
+@font-face {
+  font-family: "MyriadPro";
+  src: url("../fonts/MyriadPro-Regular.otf");
+  font-weight: 300;
+}
+
+html *
+{
+   font-size: 0.97em !important;
+   color: #000000 !important;
+   font-family: 'MyriadPro', 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif!important;
+}
+
+.scroll{
+    height: 100%;
+}
+
+html, body {
+  overflow: visible !important;
+}
+
+.bar-stable{
+	background-color: #1471b7 !important;
+}
+
+.button-positive{
+	background-image: url('../img/block-button.png'); 
+	background-repeat: no-repeat; 
+	background-size: cover;
+	border: none;
+}
+
+.button-block-emergency{
+    height: 71px !important;
+    width: 100% !important;
+}
+
+.red-button-positive-policeman{
+    background-image: url(../img/policeman.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-right: solid;
+    border-right-width: 1px;
+    border-right-color: #ffffff;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+}
+.red-button-positive-ambulance{
+	background-image: url('../img/ambulance.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-right: solid;
+    border-right-width: 1px;
+    border-right-color: #ffffff;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+}
+.red-button-positive-fire{
+	background-image: url('../img/fire-hydrant.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-right: solid;
+    border-right-width: 1px;
+    border-right-color: #ffffff;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+}
+.red-button-positive-sos{
+	background-image: url('../img/sos.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-right: solid;
+    border-right-width: 1px;
+    border-right-color: #ffffff;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+	
+}
+.red-button-positive-need-other-details{
+background-image: url(../img/needOtherDetails.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-right: solid;
+    border-right-width: 1px;
+    border-right-color: #ffffff;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    width: 50% !important;
+    min-height: 36px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.red-button-positive-have-emergency{
+background-image: url(../img/haveEmergency.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    width: 50% !important;
+    min-height: 36px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-flow{
+    white-space: inherit; 
+}
+
+.emergency-card{
+	background-color: transparent;	
+	box-shadow: none;
+}
+
+.ion-navicon{
+	color: #ffffff !important;
+}
+
+.header-text{
+	color: #ffffff !important;
+	font-size: 12px !important;
+}
+
+.white-text{
+	color: #ffffff !important;
+}
+
+.button-twenty-five-percent{
+	max-width: 30% !important;
+}
+
+.button-seventy-five-percent{
+	max-width: 70% !important;
+}
+
+.button-forty-five-percent{
+    max-width: 45% !important;
+    margin-right: 5%;
+}  
+
+.button-forty-percent{
+	max-width: 40% !important;
+}
+
+.border-button-white{
+	border: solid;
+    border-width: 2px !important;
+    border-color: #ffffff !important;
+}
+
+.seperate-button-block{
+    margin-left: 5%;
+}
+
+.transparent-background{
+	background-color: transparent;	
+}
+
+.item-input{
+	opacity: 0.55;
+}
+
+.blue-icon{
+	border: solid;
+    border-width: 2px;
+    border-color: #ffffff !important;	
+	color: #26387a !important;
+	background-color: transparent;
+}
+
+.button-outline{
+	border: solid;
+    border-width: 2px;
+    border-color: #ffffff !important;
+    color: #ffffff !important;
+}
+
+.margin-bottom-two-percent{
+	margin-bottom: 2%;
+}
+
+.image-full-height{
+	height: 100%;
+	width: 100%;
+	background-image: url('../img/reportIncidentBackground.png');
+	background-size: cover;
+}
+
+.image-full-height-emergency{
+	height: 100%;
+	width: 100%;
+	background-image: url('../img/redBackground.png');
+	background-size: cover;
+}
+
+.image-full-width{
+	height: 30%;
+    width: 100%;
+    margin-top: -15%;
+}
+
+.image-full-width-registration{
+    height: 60%;
+    margin-left: auto;
+    margin-top: 10%;
+}
+
+.image-full-width-registerForm{
+	height: 40%;
+    width: 100%;
+    margin-top: -15%;
+}
+
+.image-full-width-text{
+    height: 45%;
+    width: 100%;
+    margin-top: -15%;
+}
+
+.image-full-width-text-emergency{
+    height: 35%;
+    width: 100%;
+    margin-top: -15%;
+}
+
+.button-bar > .button:first-child {
+     border-radius: 0px 0px 0px 0px; 
+}
+
+.button-bar > .button:last-child {
+     border-radius: 0px 0px 0px 0px; 
+}
+
+.list-width{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 80%;	
+}
+
+.button-small{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button-large-side-margin{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 95% !important;
+}
+
+.test-col{
+	background-color: #e64747;
+}
+
+.button {
+     border-radius: 0px; 
+}
+
+.button-read-now{
+    height: 60%;
+    width: 35%;	
+    color: #ffffff !important;
+}
+
+.button-read-now-text{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;	
+    color: #ffffff !important;
+}
+
+.float-right{
+	float: right;
+    color: #ffffff !important;
+    font-size: 20px !important;
+}
+
+.button-bar > .button {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -moz-box-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: block;
+    overflow: hidden;
+    padding: 0 16px;
+    width: 0;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 0;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.landing-logo{
+    background-image: url(../img/registerLogo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    height: 70%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: -25%;
+}
+
+.register-logo{
+    background-image: url('../img/registerFormLogo.png'); 
+    background-repeat: no-repeat; 
+    background-size: contain; 
+    width: 100%; 
+    height: 35% !important;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.emergency-item{
+	background-color: #901a1c !important;
+	border: none;
+    margin-bottom: 10px;
+    color: #ffffff !important;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.blue-card{
+	background-color: #1571b7;
+	background-image: url('../img/herman_mashaba_message.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 120px;
+}
+
+.card-no-margin{
+	margin: 0;
+}
+
+.button-back{
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000 !important;
+    width: 90px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.button-back-text{
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.list .item.item-accordion {
+  line-height: 38px;
+  padding-top: 0;
+  padding-bottom: 0;
+  transition: 0.09s all linear;
+}
+.list .item.item-accordion.ng-hide {
+  line-height: 0px;
+}
+.list .item.item-accordion.ng-hide-add,
+.list .item.item-accordion.ng-hide-remove {
+  display: block !important;
+}
